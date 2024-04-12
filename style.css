@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+*{
+    margin-top: 0px;
+}
+
+body{
+    background-color: brown;
+}
+
+/*--------------------PARTE DE ARRIBA--------------------*/
+
+
+/*Simbolito de la máquina de café*/
+.material-symbols-outlined {
+
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 250,
+  'GRAD' 0,
+  'opsz' 10;
+
+    /*
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 50;
+  */
+
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+}
+
+/*recetasderoman.com*/
+#cedarville-cursive-regular{
+    color: black;
+    font-family: "Cedarville Cursive", sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/*Menú navegación*/
+
+#menuprincipal{
+    background-color: peru;
+    border: 3px solid black;
+    display: flex;
+    padding-left: 30px;
+}
+
+#listamenuprincipal{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#itemcontacto{
+    margin-top: 20px;
+}
+
+/*Banderas*/
+
+#containerbanderas{
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#banderas{
+    flex-direction: row;
+}
+
+.flags{
+    border: 1px solid white;
+    height: 50px;
+}
+
+#turkiye{
+    position: relative;
+    right: 40px;
+    top: 20px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------TÍTULO--------------------*/
+
+#titulo{
+    margin-top: 20px;
+}
+
+#fondotitulo{
+    border: 3px solid black;
+    height: 100%;
+    width: 99.4%;
+}
+
+#textotitulo{
+    animation-name: cambioColor;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    background-color: white;
+    border: 10px solid #f86706;
+    border-radius: 50px;
+    color: chocolate;
+    font-family: cursive;
+    padding: 20px;
+    position: absolute;
+    bottom: 80px;
+    right: 200px;    
+    text-align: center;
+}
+
+@keyframes cambioColor{
+    from{
+        background-color: chocolate;
+        border-color: rgb(117, 72, 72);
+        color: white;
+    }
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------ÍNDICE--------------------*/
+
+a{
+    text-decoration: none;
+}
+
+#tituloindice{
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+#listaindice > .itemsindice{
+    font-size: 25px;
+    visibility: visible;
+}
+
+#indice{
+    background-color: peru;
+    border: 5px solid black;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------TEXTO EXPLICATIVO--------------------*/
+
+main{
+    border: 5px dotted white;
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2{
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.lista{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 70px;
+}
+
+hr{
+    margin-top: 60px;
+    border: 3px dotted white;
+}
+
+#pasos{
+    padding-bottom: 15px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------VIDEO--------------------*/
+
+.subtitulo{
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+iframe{
+    border: 20px groove black;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------SORTEO--------------------*/
+
+p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+}
+
+.form-sorteo{
+    list-style: none;
+    margin-top: 30px;
+}
+
+.datos{
+    padding: 10px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    -webkit-appearance: none;
+}
+
+.premios{
+    border: 2px solid black;
+    height: 150px;
+    width: 200px;
+}
+
+#imagenes{
+    margin-left: 100px;
+}
+
+#imagen1, #imagen2, #imagen3{
+    height: 40px;
+    width: 40px;
+}
+
+#btn-enviar{
+    list-style: none;
+}
+
+#btn-enviar > input{
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100px;
+}
+
+#btn-enviar:hover > input{ 
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: darkorange;
+    color: #7a1111;
+    font-size: 25px;
+    margin-bottom: 50px;
+    padding-right: 100px;
+    margin-top: 50px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------FINAL PÁGINA--------------------*/
+
+#finalpagina{
+    background-color: chocolate;
+    border-bottom: 3px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 3px solid black;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+h6{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+#contacto{
+    display: inline-block;
+}
+
+.itemcontacto{
+    margin-bottom: 40px;
+}
+
+#logofooter{
+    display: inline-block;
+    margin-left: 200px;
+}
+
+#contacto, #logofooter{
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/*--------------------ADAPTACIONES--------------------*/
+
+@media (max-width:990px) { 
+    #menuprincipal{
+        padding-bottom: 20px;
+    }
+
+    #listamenuprincipal{
+        margin-left: 60px;
+    }
+
+    #argentina{
+        position: relative;
+    }
+
+    #turkiye{
+        left: 0px;
+    }
+
+    #textotitulo{
+        bottom: 650px;
+        left: 100px;
+        margin-left: 100px;
+    }
+
+    iframe{
+        margin-left: 50px;
+    }
+
+    #sorteo{
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:768px){
+    #menuprincipal{
+        display: grid;
+        grid-template-columns: repeat(1,700px);
+    }
+
+    .header-col{
+        margin-left: 100px;
+    }
+
+    #argentina{
+        bottom: 30px;
+        left: 100px;
+    }
+
+    #turkiye{
+        left: 150px;
+        top: -30px;
+    }
+
+    #textotitulo{
+        bottom: 500px;
+    }
+
+    #subtitulo-prevideo{
+        margin-left: 20px;
+    }
+
+    iframe{
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 500px){
+   #menuprincipal{
+        margin-left: 15%;
+        width: 85%;
+   }
+
+   #listamenuprincipal, #containerbanderas{
+        margin-left: -40px;
+   }
+
+   #titulo{
+        position: relative;
+        left: 50px;
+   }
+
+   #textotitulo{
+        bottom: 100px;
+        font-size: 15px;
+        margin-left: 50px;
+        width: 25%;
+   }
+
+   #indice, .container, #subtitulo-prevideo, #finalpagina{
+        margin-left: 100px;
+   }
+
+   #sorteo{
+        margin-left: 50px;
+   }
+
+   #logofooter{
+    margin-left: 0;
+   }
+}

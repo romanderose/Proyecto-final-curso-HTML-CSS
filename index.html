@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>¿Cómo preparar café turco?</title>
+</head>
+<body>
+    
+    <!-----------------PARTE DE ARRIBA----------------->
+    <header>
+
+
+        <nav id="menuprincipal">
+
+            <div class="header-col">
+                <span class="material-symbols-outlined">
+                coffee_maker
+                </span>
+
+                <h2 id="cedarville-cursive-regular">
+                recetasderoman.com
+                </h2>
+            </div>
+
+            <div class="header-col">
+                <ul id="listamenuprincipal">
+                    <h5>MENÚ PRINCIPAL</h5>
+
+                    <li>Otras recetas (próximamente)</li>
+                    <li id="itemcontacto"> 
+                        <a href="#finalpagina">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header-col" id="containerbanderas">
+                
+                <div id="banderas">
+                    <img class="flags" id="argentina" src="./imagenes/argentina.webp">
+                    <img class="flags" id="turkiye" src="./imagenes/turquia.png">
+                </div>
+
+            </div>
+            
+        </nav>
+
+        <!----------------------------------------------------------------------------------------------->
+
+        <!-----------------TÍTULO E IMAGEN DE FONDO----------------->
+
+        <div id="titulo">
+
+            <img id="fondotitulo" src="./imagenes/cafe-turco-3027912.webp">
+
+            <h1 id="textotitulo">
+                CAFÉ TURCO: CÓMO PREPARARLO
+            </h1>
+
+        </div>
+
+    </header>
+
+    <!----------------------------------------------------------------------------------------------->
+
+    <!-----------------ÍNDICE----------------->
+
+    <nav id="indice">
+        <h3 id="tituloindice">ÍNDICE</h3>
+
+        <ol id="listaindice">
+
+            <li class="itemsindice">
+                <a href="#elementos">
+                    ¿Qué se necesita?
+                </a>
+            </li>
+            
+            <li class="itemsindice">
+                <a href="#pasos">
+                    Paso a paso
+                </a>
+            </li>
+
+            <li class="itemsindice">
+                <a href="#video">
+                    Video explicativo del paso a paso
+                </a>
+            </li>
+
+            <li class="itemsindice">
+                <a href="#sorteo">
+                    Sorteo
+                </a>
+            </li>
+   
+        </ol> 
+        
+    </nav>
+
+    <!----------------------------------------------------------------------------------------------->
+
+    <!-----------------PASO A PASO----------------->
+
+    <main class="container">
+
+
+        <section id="elementos">
+
+            <h2>¿QUÉ SE NECESITA?</h2>
+
+            <ul>
+
+                <li class="lista">
+                    Agua (cantidad según las tazas que se van a usar).
+                </li>
+
+                <li class="lista">
+                    1 cucharada sopera de café por cada taza (bien llena), puede ser común o instantáneo.
+                </li>
+
+                <li class="lista">
+                    Una cafetera turca (cezve) o un jarrito para hervir.
+                </li>
+
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <section id="pasos">
+
+            <h2>PASO A PASO</h2>
+
+            <ol>
+                <li class="lista">
+                    En la cafetera turca o jarrito, hervir el agua. 
+                </li>
+
+                <li class="lista">
+                    Una vez esté hirviendo el agua, agregar la/las cucharada/s 
+                    de café y revolver.
+                </li>
+
+                <li class="lista">
+                    Se levantará espuma, antes que rebalce retirar la cafetera del 
+                    fuego, esperar unos segundos a que la espuma baje y volverla
+                    a poner. Repetir este punto al menos 3 veces, para mezclar mejor 
+                    el café.
+                </li>
+
+                <li class="lista">
+                    Opcional, recomendado en caso de usar café común: En Turquía, debido a 
+                    un ritual cultural, se suele servir el café directamente, quedando la 
+                    borra en el fondo de la taza. En caso que querer evitar este paso, 
+                    se puede servir con colador.
+                </li>
+            </ol>
+
+        </section>
+
+    </main>
+    
+    <!----------------------------------------------------------------------------------------------->
+
+    <!-----------------VIDEO----------------->
+
+    <h3 class="subtitulo" id="subtitulo-prevideo">
+        En el siguiente video se muestra el paso a paso: <br/>
+    </h3>
+        
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sVDqWcORYr0?si=c41ZUmWC2wGhm9f3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <!----------------------------------------------------------------------------------------------->
+
+    <!-----------------FORMULARIO SORTEO----------------->
+
+    <section id="sorteo">
+
+        <h3 class="subtitulo">
+            Si llegaste a esta parte significa que te gustó la receta
+            y te dieron ganas de intentar hacer café turco, por lo que
+            ¡Estás invitado/a a participar del siguiente sorteo!
+        </h3>
+
+        <p>
+            Para hacerlo, tenés que completar el formulario con los datos
+            requeridos y elegir uno de los 3 premios por el
+            cual vas a participar.
+        </p>
+
+        <form action="https://formspree.io/f/mdoqdypd" method="post">
+            <ul class="secciones-sorteo">
+
+                <li class="form-sorteo">
+                    <label for="nombre">Nombre:</label>
+
+                    <input id="nombre" class="datos" type="text" name="nombre" 
+                    placeholder="Ejemplo: Mariela, Sebastián...">
+                </li>
+
+                <li class="form-sorteo">
+                    <label for="apellido">Apellido:</label>
+
+                    <input id="apellido" class="datos" type="text" name="apellido" 
+                    placeholder="Ej.: Romero, Da Silva...">
+                </li>
+
+                <li class="form-sorteo">
+                    <label for="dni">Últimos 3 dígitos del DNI:</label>
+
+                    <input id="dni" class="datos" type="number" name="dni"
+                    placeholder="Ej.: 266, 012...">
+                </li>
+
+                <li class="form-sorteo">
+                    <label for="correo-electronico">E-mail:</label>
+
+                    <input id="correo-electronico" class="datos" type="email" name="email" 
+                    placeholder="Ej.: ejemplo@ejemplo.com">
+                </li>
+                
+            </ul>
+            
+            <!-----------------imágenes sorteo----------------->
+
+            <p>
+                Solamente podés elegir una de las 3 opciones. Clickear el 
+                círculo que está al lado de la imagen que vas a seleccionar.
+            </p>
+
+            <ul class="secciones-sorteo" id="imagenes">
+
+                <li class="form-sorteo">
+                    <img class="premios" src="./imagenes/cezve1.jpg">
+                    <input id="imagen1" type="radio" name="premio" value="imagen1">
+                </li>
+
+                <li class="form-sorteo">
+                    <img class="premios" src="./imagenes/cezve2.webp">
+                    <input id="imagen2" type="radio" name="premio" value="imagen2">
+                </li>
+
+                <li class="form-sorteo">
+                    <img class="premios" src="./imagenes/cezve3.webp">
+                    <input id="imagen3" type="radio" name="premio" value="imagen3">
+                </li>
+
+                <li id="btn-enviar">
+                    <input type="submit" value="ENVIAR">
+                </li>
+
+            </ul>
+
+            <p>
+                El sorteo será transmitido en vivo por el canal de Youtube del autor,
+                el cual está citado al final de esta página. Los ganadores serán 
+                anunciados en la transmisión y el autor se comunicará con los
+                mismos por el e-mail proporcionado en el formulario anterior,
+                para coordinar la forma de entrega de los premios. <br/>
+                
+            </p>
+
+            <p>
+                Muchas gracias por participar, ¡buena suerte!
+            </p>
+
+        </form>
+
+    </section>
+
+    <!----------------------------------------------------------------------------------------------->
+
+    <!-----------------PARTE FINAL----------------->
+    
+    <footer id="finalpagina">
+
+        <h6>CONTACTO:</h6>  
+
+        <ul id="contacto">
+            <li class="itemcontacto">Gmail: romandealdobonzi@gmail.com</li>
+            <li class="itemcontacto" >YouTube: 
+                <a href="https://www.youtube.com/channel/UCFWuZOOH1Z6lmT2E4MxZuzA">
+                Román De Rose
+                </a> 
+            </li>
+        </ul>
+
+        <div id="logofooter">
+            <span class="material-symbols-outlined">
+                coffee_maker
+            </span>
+
+            <h2 id="cedarville-cursive-regular">
+                recetasderoman.com
+            </h2> 
+        </div>
+        
+    </footer>
+
+</body>
+</html>
